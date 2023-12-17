@@ -9,15 +9,18 @@
 body {
     color: #fff;
     background: #081b29;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    max-width: 100%;
     padding: 20px 10%;
-    background: #051129;
+    /* background: #051129; */
+    background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
